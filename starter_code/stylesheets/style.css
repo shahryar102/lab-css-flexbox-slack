@@ -7,6 +7,7 @@ nav grey: #5b5e6d;
 */
 body {
     margin-left: 0;
+    width: 100vw;
 }
 .nav-bar {
     position: fixed;
@@ -40,6 +41,60 @@ body {
  #menu a li{
     list-style-type: none;
 }
+header {
+    width: 100vw;
+}
+.header{
+    margin-top:65px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 0;
+ }
+ .header h1 {
+    padding: 30px;
+    font-size: 2.5rem;
+ }
+ .header p {
+    font-size: 1.5rem;
+    padding: 30px;
+ }
+ input  {
+    height: 35px;
+    width: 75%;
+    border-width: 1px;
+    margin-bottom: 15px;
+  }
+  button  {
+    height: 35px;
+    width: 75%;
+    background-color: rgb(0, 140, 255);
+    border-width: 1px;
+  }
+
+  .first-image img {
+      width: 100vw;
+  }
+.form {
+    width: 100vw;
+}
+  .form form {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  main {
+    background: #ccc;
+    margin-top: 0;
+  }
+
+  h2 {
+      margin: 0;
+  }
 
 
 
