@@ -8,6 +8,7 @@ nav grey: #5b5e6d;
 body {
     margin-left: 0;
     width: 100vw;
+    /* font-family: Slack-Lato,appleLogo,sans-serif; */
 }
 .nav-bar {
     position: fixed;
@@ -33,9 +34,22 @@ body {
 }
 .nav-bar #menu {
     display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #192592;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    padding-right: 20px;
 }
  #menu a {
      text-decoration: none;
+     color: white;
+     font-weight: bold;
+     margin: 10px 0;
+     font-size: 1.1rem;
+     border-bottom: 1px solid lightslategray;
  }
 
  #menu a li{
@@ -52,13 +66,14 @@ header {
     width: 100vw;
     border-bottom: 1px solid lightgray;
     margin-bottom: 0;
+    align-items: center;
  }
  .header h1 {
     padding: 30px;
     font-size: 2.5rem;
  }
  .header p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 30px;
  }
  input  {
@@ -80,15 +95,25 @@ header {
 .form {
     width: 100vw;
 }
-  .form form {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
-  }
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+
+.form form button {
+    height: 50px;
+    border-radius: 4px;
+    background-color: #192592;
+    color: white;
+    font-weight: bold;
+}
+
 
   main {
-    background: #ccc;
+    background: #F4F3F4;
     margin-top: 0;
   }
 
@@ -96,7 +121,173 @@ header {
       margin: 0;
   }
 
+  .good-company {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 25px 15px;
+  }
 
+  .good-company p {
+      padding: 0 30px;
+      text-align: center;
+  }
 
+  .good-company button {
+      background: #F4F3F4;
+      color: #192592;
+      border: 1px solid #192592;
+      border-radius: 4px;
+      width: 250px;
+      font-weight: bold;
+  }
+
+  .company-logos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .company-logos img {
+    width: 200px;
+  }
+
+  .logo-container {
+      height: 100px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .bnb {
+      margin-top: 50px;
+  }
+  .good-company hr {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 8px auto;
+    height: 0;
+    width: 100%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border: none;
+    border-top: 1px solid #aaaaaa;
+    justify-self: center;
+  }
+
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 30px;
+}
+
+.sign-in h2 {
+    font-weight: bold;
+}
+
+.sign-in p {
+    margin-top: 0;
+    font-size: 1.1rem;
+}
+
+.sign-in form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+
+.sign-in form input {
+    border-radius: 4px;
+}
+
+.sign-in form button {
+    height: 50px;
+    border-radius: 4px;
+    background-color: #192592;
+    color: white;
+    font-weight: bold;
+}
+
+.extra-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 0;
+}
+
+.extra-links ul {
+    width: 30vw;
+    list-style-type: none;
+}
+
+.extra-links ul a li {
+    color: #5b5e6d;
+    margin: 10px 5px;
+}
+
+.extra-links ul a {
+    text-decoration:
+}
+
+.title {
+    font-weight: bold;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F4F3F4;
+    padding-bottom: 80px;
+}
+
+.footer-links ul {
+    display: flex;
+    list-style-type: none;
+    justify-items: center;
+    padding-left: 0;
+}
+
+.footer-links ul li {
+    margin: 10px;
+    color: #5b5e6d;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.footer-links div img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.theflag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #5b5e6d;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.theflag span {
+    margin-right: 10px;
+}
+
+.icons i {
+    width: 30px;
+    color: #5b5e6d;
+}
+
+.slack-logo img {
+    width: 100px;
+    margin: 5px;
+    margin-bottom: 0;
+}
 
 
